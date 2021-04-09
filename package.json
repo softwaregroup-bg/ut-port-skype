@@ -4,12 +4,11 @@
     "main": "index.js",
     "dependencies": {
         "browser-process-hrtime": "1.0.0",
-        "joi": "13.7.0",
         "jsonwebtoken": "8.5.0",
         "jwks-rsa": "1.6.2",
         "readable-stream": "2.3.3",
         "request": "2.88.0",
-        "ut-port-webhook": "^7.0.0"
+        "ut-port-webhook": "^8.0.0"
     },
     "devDependencies": {
         "sort-keys": "2.0.0",

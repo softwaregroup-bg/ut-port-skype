@@ -1,6 +1,4 @@
-const joi = require('joi');
-
-const common = joi.object({
+const common = joi => joi.object({
     url: /^.+\/v3\/conversations\/[^\\]+\/activities\/[^\\]+$/,
     headers: joi.object({
         Authorization: joi.string().regex(/^Bearer .+/)
@@ -10,7 +8,7 @@ const common = joi.object({
         apiDoc: 'https://docs.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-connector-quickstart?view=azure-bot-service-4.0#reply-to-the-users-message'
     });
 
-module.exports = joi.object({
+module.exports = joi => joi.object({
     body: joi.object({
         type: 'message',
         from: joi.object({
@@ -51,7 +49,7 @@ module.exports = joi.object({
             .description('Defines additional information to include in the message. An attachment may be a media file (e.g., audio, video, image, file) or a rich card.')
     })
 })
-    .concat(common)
+    .concat(common(joi))
     .meta({
         apiDoc: 'https://docs.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-connector-api-reference?view=azure-bot-service-4.0#reply-to-activity'
     })
