@@ -1,3 +1,12 @@
+# [7.2.0](https://github.com/softwaregroup-bg/ut-port-skype/compare/v7.1.0...v7.2.0) (2021-04-09)
+
+
+### Features
+
+* use framework's joi ([e7ecb5d](https://github.com/softwaregroup-bg/ut-port-skype/commit/e7ecb5d73fa1d2e16f1612ffab47221d2ebd4a2b))
+
+
+
 # 7.1.0 (2020-06-01)
 
 
