@@ -285,7 +285,7 @@ module.exports = function skype({utBus, utMethod}) {
                         jwksUri: openIdMetaDoc.jwks_uri
                     });
                 },
-                [`${hook}.identity.request.receive`]: async(msg, {params, headers}) => {
+                [`${hook}.identity.request.receive`]: async(msg, {params, request: {headers}}) => {
                     // https://docs.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-connector-authentication?view=azure-bot-service-4.0#connector-to-bot
                     if (typeof headers.authorization !== 'string') {
                         throw this.errors['webhook.missingHeader']({params: {header: 'authorization'}});
