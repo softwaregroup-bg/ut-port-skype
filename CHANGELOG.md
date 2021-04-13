@@ -1,3 +1,12 @@
+## [7.2.2](https://github.com/softwaregroup-bg/ut-port-skype/compare/v7.2.1...v7.2.2) (2021-04-13)
+
+
+### Bug Fixes
+
+* k8s port ([c5efcff](https://github.com/softwaregroup-bg/ut-port-skype/commit/c5efcff1b7223ec6f63aa9bf11fda3aff0f3156f))
+
+
+
 ## [7.2.1](https://github.com/softwaregroup-bg/ut-port-skype/compare/v7.2.0...v7.2.1) (2021-04-10)
 
 
