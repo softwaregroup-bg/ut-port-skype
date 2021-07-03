@@ -8,7 +8,7 @@ Use the screenshots below to define the following properties:
 
 * Bot properties
   * `appId` - use `Microsoft App Id`, highlighted in the screenshot below
-  * `secret` - create a clien secret from `certificate & secrets`
+  * `secret` - create a client secret from `certificate & secrets`
     (click on `Manage` next to `Microsoft App Id`)
 * Context properties
   * `clientId` - set to `skype/<Bot handle>`,

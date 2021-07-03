@@ -226,6 +226,7 @@ module.exports = function skype({utBus, utMethod}) {
         get defaults() {
             return {
                 path: '/skype/{appId}/{clientId}',
+                ingress: ['/skype', '/webchat'],
                 hook: 'skypeIn',
                 namespace: 'skype',
                 server: {
