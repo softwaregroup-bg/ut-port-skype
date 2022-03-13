@@ -1,6 +1,6 @@
 {
     "name": "ut-port-skype",
-    "version": "7.2.4",
+    "version": "7.2.5",
     "main": "index.js",
     "dependencies": {
         "browser-process-hrtime": "1.0.0",
