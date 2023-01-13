@@ -4,15 +4,14 @@
     "main": "index.js",
     "dependencies": {
         "browser-process-hrtime": "1.0.0",
-        "jsonwebtoken": "8.5.0",
+        "jsonwebtoken": "9.0.0",
         "jwks-rsa": "1.6.2",
         "readable-stream": "2.3.3",
         "request": "2.88.0",
         "ut-port-webhook": "^8.3.0"
     },
     "devDependencies": {
-        "tap": "^16.0.0",
-        "ut-tools": "^6.37.0"
+        "tap": "^16.0.0"
     },
     "peerDependencies": {
         "ut-run": "^10.52.0"
