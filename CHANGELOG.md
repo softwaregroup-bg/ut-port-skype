@@ -1,3 +1,12 @@
+## [7.2.6](https://github.com/softwaregroup-bg/ut-port-skype/compare/v7.2.5...v7.2.6) (2023-01-13)
+
+
+### Bug Fixes
+
+* update jsonwebtoken version to 9.0.0 ([8cf869a](https://github.com/softwaregroup-bg/ut-port-skype/commit/8cf869acea1001a6bdd9a32ff9cddf400526d378))
+
+
+
 ## [7.2.5](https://github.com/softwaregroup-bg/ut-port-skype/compare/v7.2.4...v7.2.5) (2022-03-13)
 
 
